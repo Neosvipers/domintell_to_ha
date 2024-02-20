@@ -1,18 +1,13 @@
 {
     "domain": "domintell_to_ha",
     "name": "Domintell to Home Assistant",
-    "documentation": "https://github.com/yourusername/domintell_to_ha",
+    "documentation": "https://github.com/Neosvipers/domintell_to_ha",
     "dependencies": [],
     "codeowners": [],
     "requirements": [],
-    "version": "0.1.0",
     "slug": "domintell_to_ha",
     "startup": true,
     "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-    "docker": {
-        "image": "yourusername/domintell_to_ha",
-        "network": "host"
-    },
     "panel": {
         "config": {
             "name": "Domintell"
